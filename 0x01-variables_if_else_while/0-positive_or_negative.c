@@ -6,14 +6,13 @@
 
 
 /**
+* main - print if the number is postive, zero, or negative
+*
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
+* Return: 0
+*/
 
- * main - Prints if number is positive, zero or negative
-
- *
-
- * Return: Always (Success)
-
- */
 
 int main(void)
 
