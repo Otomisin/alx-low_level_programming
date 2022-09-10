@@ -1,21 +1,11 @@
 #include <stdio.h>
 
-
 /**
-
-
- * main - print possible combination of two 2-digit
-
-
- * numbers
-
-
+ * main - print if the number is postive, zero, or negative
  *
-
-
- * Return: returns zero at the end
-
-
+ * Description: using the main function
+ * this program prints "Programming is positive, zero, or negative
+ * Return: 0
  */
 
 
@@ -26,26 +16,11 @@ int main(void)
 
 
         int i, p;
-
-
-
-
-
         for (i = 0; i < 100; i++)
-
-
         {
-
-
                 for (p = 0; p < 100; j++)
-
-
                 {
-
-
-                        if (p > i)
-
-
+        	        if (p > i)
                         {
 
 
