@@ -1,1 +1,1 @@
-0x00. C - Hello, World
+This is 0x00. C - Hello, World task
