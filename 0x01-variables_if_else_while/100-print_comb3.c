@@ -6,18 +6,18 @@
 int main(void)
 {
 	int c = 0;
-	int f_d;
-	int l_d;
+	int d;
+	int f;
 
 	while (c <= 99)
 	{
-		f_d = (c / 10 + '0');
-		l_d = (c % 10 + '0');
+		d = (c / 10 + '0');
+		f = (c % 10 + '0');
 
-		if (f_d < l_d)
+		if (d < f)
 		{
-			putchar(f_d);
-			putchar(l_d);
+			putchar(d);
+			putchar(f);
 
 			if (c != 89)
 			{
