@@ -1,11 +1,23 @@
-#include "main.h"
-
+include "main.h"
 /**
-* _isdigit - funtion to check for a digit
-* @c: an integer argument
-* Return: success
-*/
-int _isdigit(int c)
+ * _strcat - a function that concatenates two strings
+ * @dest: string 1
+ * @src: string 2
+ *
+ * Return: a string
+ */
+char *_strcat(char *dest, char *src)
 {
-	return (c >= '0' && c <= '9');
+	int len = 0, i;
+
+	while (dest[len])
+		len++;
+	for (i = 0; src[i] != 0; i++)
+	{
+		dest[len] = src[i];
+		len += 1;
+	}
+	dest[len] = '\0';
+	return (dest);
 }
+
