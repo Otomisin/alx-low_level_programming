@@ -37,7 +37,7 @@ char *str_concat(char *s1, char *s2)
 	if (str_copy == NULL)
 		return (NULL);
 	j = 0;
-     while (j < len1)
+	while (j < len1)
 	{
 		str_copy[j] = s1[j];
 		j++;
