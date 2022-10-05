@@ -1,27 +1,13 @@
 #include "main.h"
-
 /**
- * _isalpha - Displays 1 if the input is a letter else it displays 0.
- *
- * @c: The input character
- * Description: Function returns 1 if character is a letter,
- *lowercase or uppercase.
- *
- * Return: 1 else 0.
- */
-
+*_isalpha - controls if a character is alphabetical
+*@c: character to be verified
+*Return: return 0 or 1
+*/
 int _isalpha(int c)
 {
-	char lower, upper;
-	int isletter = 0;
+if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+return (1);
 
-	for (lower = 'a'; lower <= 'z'; lower++)
-	{
-		for (upper = 'A'; upper <= 'Z'; upper++)
-		{
-			if (c == lower || c == upper)
-				isletter = 1;
-		}
-	}
-	return (isletter);
+return (0);
 }
