@@ -1,16 +1,22 @@
 #include <stdio.h>
-#include <unistd.h>
-
 /**
-* main - print quote
-*
-* Description: prints Dora's quote
-*
-* Return: Always 1 (Success)
-*/
-
+ * main - prints all hex numbers in lowercase
+ * Objectives: Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+ * Return: returns 0 if successful
+ */
 int main(void)
 {
-write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-return (1);
+	int a;
+	char ch;
+
+	for (a = 48; a < 58; a++)
+	{
+		putchar(a);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
