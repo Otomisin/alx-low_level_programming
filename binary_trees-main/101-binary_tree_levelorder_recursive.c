@@ -2,8 +2,8 @@
 
 /**
  * struct node_s - singly linked list
- * @node: const binary tree node
- * @next: points to the next node
+ * @node: The pointer to const binary tree node
+ * @next: The pointer to the next node
  */
 typedef struct node_s
 {

@@ -10,6 +10,7 @@ bst_t *bst_remove(bst_t *root, int value);
  * @root: A pointer to the root node of the BST to search.
  *
  * Return: The minimum value in @tree.
+ * Comments
  */
 bst_t *inorder_successor(bst_t *root)
 {
