@@ -10,7 +10,7 @@
  *
  * Return: Index where value is located, or -1 if not present or array is NULL
  *
- * Description: Prints the array being searched every time it changes.
+ * Description: Prints the array being searched every time it changes
  */
 int binary_search(int *array, size_t size, int value)
 {
